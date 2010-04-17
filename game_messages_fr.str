@@ -86,6 +86,9 @@ hero_swap_request					{player_color}{player}^* vous propose d'échanger son hér
 player_ready						{player_color}{player}^* est ^gprêt^*.
 player_unready						{player_color}{player}^* n'est ^rplus prêt^*.
 
+lobby_lock							L'hôte à vérouillé l'emplacement : {slot_color}{slot}^*.
+lobby_unlock						L'hôte à dévérouillé l'emplacement : {slot_color}{slot}^*.
+
 error_target_invulnerable			La cible est invulnérable.
 error_not_ready						{tool} n'est pas encore prêt.
 error_low_mana						Pas assez de Mana pour utiliser {tool}

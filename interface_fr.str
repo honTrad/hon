@@ -112,12 +112,12 @@ main_label_update_files						Fichiers restants : ^w{count}/{total}
 main_label_update_progress					Progression : ^w{count} Mo/{total} Mo
 main_label_update_speed						Vitesse de téléchargement : ^w{speed} Ko/sec
 main_label_update_time						Temps restant : ^w{time}
-main_login_save_username					Sauvegarder nom
-main_login_save_username_tip				Quand coché, vous n'aurez pas à re-taper votre nom de compte à chaque allumage du jeu.
-main_login_auto_auth						Sauvegarder pass
-main_login_auto_auth_tip					Quand coché, vous n'aurez pas à re-taper votre mot de passe à chaque allumage du jeu.
+main_login_save_username					Enreg. Nom
+main_login_save_username_tip				Si coché, vous n'aurez pas à re-taper votre nom de compte à chaque lancement du jeu.
+main_login_auto_auth						Enreg. Pass
+main_login_auto_auth_tip					Si coché, vous n'aurez pas à re-taper votre mot de passe à chaque lancement du jeu.
 main_login_invis_mode						Mode Invisible
-main_login_invis_mode_tip					Quand coché, vos amis et camarades de clan ne seront pas informés de vos connexions/déconnexions, ou du nom des parties que vous joigniez/quittez
+main_login_invis_mode_tip					Si coché, vos amis et membres de clan ne seront pas informés de vos connexions/déconnexions, ou du nom des parties que vous joignez/quittez
 main_login_lost_pass						Identifiants oubliés ?
 main_login_password_saved					<sauvegardé>
 
@@ -505,8 +505,8 @@ options_notifications_friends_signon				Connexion
 options_notifications_friends_signoff				Déconnexion
 options_notifications_friends_joingame				Parties rejointes
 options_notifications_friends_leavegame				Parties quittées
-options_notifications_friends_imreceived			IM Received
-options_notifications_friends_pmreceived			PM Received
+options_notifications_friends_imreceived			MI Recu
+options_notifications_friends_pmreceived			MP Recu
 options_notifications_friends_scored				Scored
 options_notifications_clans							Clans
 options_notifications_clans_promotion				Gradation des membres
@@ -517,7 +517,7 @@ options_notifications_clans_event					Évènements du clan
 options_notifications_tournaments					Tournois
 options_notifications_tournaments_new				Nouveaux tournois
 options_notifications_tournaments_upcomingmatch		Upcoming Tournament Match
-options_notifications_tournaments_registred			Registered to Tournament
+options_notifications_tournaments_registred			Enregistrement au Tournoi
 options_notifications_tournaments_matchresults		Résultats de tournoi
 options_notifications_invitations					Invitations
 options_notifications_invitations_game				Match
@@ -527,6 +527,7 @@ options_notifications_invitations_team_matchmaking	Arranged Team Matchmaking
 options_notifications_miscellaneous					Autre
 options_notifications_miscellaneous_newpatch		Nouvelle mise à jour
 notification_history								Historique des notifications
+notification_history_remove_all_button				Supprimer les notifications
 // create_account.package
 create_acc_nickname							Pseudo :
 create_acc_first_name						Prénom :
@@ -555,7 +556,7 @@ create_acc_input_birth_day					Date de naissance :
 create_acc_label_account_success			Compte créé avec succès !
 create_acc_success_button_okay				OK
 create_acc_secure_transfer					Les informations de votre compte sont sécurisés grâce à une encryption des données avant d'être envoyés par internet.
-create_acc_agreement						By clicking the "Create Account" button, you are agreeing to the Terms of Service.
+create_acc_agreement						En cliquant sur "Create Account", vous acceptez les "Terms of Service".
 
 // states
 create_acc_state_alabama					Alabama
@@ -1127,18 +1128,18 @@ game_end_stats_kda					^g{kills}^*/^r{deaths}^*/^y{assists}^*
 
 game_end_stats_recentgames					Voir les parties récentes
 game_end_stats_matchdetails					Match Details
-game_end_stats_download_btn					Téléchargé partie à revoir
+game_end_stats_download_btn					Télécharger partie à revoir
 game_end_stats_download_tootlip				Télécharger la partie à revoir de cette partie.
-game_end_stats_comment_btn					Comment
+game_end_stats_comment_btn					Commentaire
 game_end_stats_comment_tooltip				Match comments will be viewable on the HoN replays website.
 game_end_stats_awards						Récompenses de la partie
 game_end_stats_close_button					Fermer fenêtre
 game_end_stats_download_waiting_btn			Vérification...
-game_end_stats_download_waiting_tootlip		Checking for replay file.
-game_end_stats_download_retry_tooltip		The replay download has failed, the file may not yet be uploaded, click here to try again.
-game_end_stats_download_unav_btn			Replay Unavailable
-game_end_stats_download_unav_tooltip		This replay is not available for download.
-game_end_stats_download_compat_tooltip		This replay is of an older version of Heroes of Newerth.  Compatability files will need to be downloaded in order to view this replay.
+game_end_stats_download_waiting_tootlip		Vérification du fichier Replay.
+game_end_stats_download_retry_tooltip		Le téléchargement du replay download a échoué, le fichier n'est peut etre pas encore uploadé, cliquez ici pour recommencer.
+game_end_stats_download_unav_btn			Replay Indisponible
+game_end_stats_download_unav_tooltip		Le replay n'est pas disponible au téléchargement.
+game_end_stats_download_compat_tooltip		Ce replay est pour une ancienne version de HoN.  Des fichiers de compatibilités vont être téléchargés pour le visionner.
 
 // cc_ircchat.package
 ircchat_main_button_join_create_new			Rejoindre/Créer nouveau canal
@@ -1224,7 +1225,7 @@ mainlobby_label_deathmatch					Match à mort
 mainlobby_header_game_options				Options de jeu
 mainlobby_label_tier						Niveau
 mainlobby_label_tier_tip					Accès aux serveurs restreint à un niveau specifique.\n\n^yNoobs seulement^* - Seuls les comptes ayant une faible expérience générale peuvent jouer.\n^yNoobs autorisés^* - Tout joueur de tout niveau d'expérience peut jouer.\n^yPro^* - Seuls les comptes ayant atteint un niveau d'expérience général élevé peuvent jouer.
-mainlobby_header_game_tier1					Noobs seulement
+mainlobby_header_game_tier1					Noobs Seulmnt
 mainlobby_header_game_tier2					Noobs autorisés
 mainlobby_header_game_tier3					Pro
 mainlobby_header_game_official				Officiel - Stats enregistrées
@@ -1389,7 +1390,7 @@ gamelobby_spectators_header					Spectateurs
 gamelobby_spectate_button					Devenir spectateur
 gamelobby_disconnect_button					Se déconnecter
 gamelobby_disband_game_button				^rDissoudre le jeu
-gamelobby_start_game_button					Démarrer le jeu
+gamelobby_start_game_button					Lancer le jeu
 gamelobby_private_button					Jeu privé
 gamelobby_private_tip_header				Jeu privé
 gamelobby_private_tip_text					Si vous sélectionnez cette fonction, votre jeu n'apparaîtra pas dans la liste de partie et ne sera pas utilisé par Match Rapide. Les joueurs n'ayant pas été invités ne pourront pas se connecter.
@@ -1405,6 +1406,8 @@ game_lobby_mode								^yMode de jeu :^* {mode}
 game_lobby_options							^yOptions de jeu :^* {options}
 gamelobby_disband_button					Dissoudre
 game_lobby_version							^yVersion:^* {version}
+
+globby_lock_tip								Vérouillage Emplacement
 
 // game_menu.interface
 game_menu_header							Menu du jeu
@@ -1486,7 +1489,7 @@ lang_es										Espagnole
 lang_vn										Vietnamien
 lang_notnow									Vous ne pouvez pas changer de langue maintenant. Veuillez retourner à la page principale pour ça.
 purch_subacct								Acheter compte secondaire
-purch_resetstats							R.a.z stats
+purch_resetstats							Remise a Zero Stats
 purch_giftacct								Achetez compte cadeau
 purch_upgradefriend							Upgrade Friend
 purch_upgradeaccount						Upgrade Account
@@ -1529,15 +1532,17 @@ player_stats_clan_name						Nom de clan
 player_stats_level							Niveau du joueur
 player_stats_rank							Grade: {rank}
 player_stats_psr							PSR:
+player_stats_wards							Balises posées
+player_stats_apm							APM
 player_avg_game_length						Durée des parties
 player_avg_kda								T  /  M  /  A
-player_avg_creep_kills						Creep Tués
-player_avg_creep_denies						Creep Sacrifiés
+player_avg_creep_kills						Creeps Tués
+player_avg_creep_denies						Creeps Sacrifiés
 player_stats_last_20_matches				20 derniers Matchs
 player_stats_fetch							Afficher stats
 player_stats_fetch_msg						Entrez le pseudo d'un joueur pour voir ses stats.
 player_stats_matchid						ID du Match
-player_stats_mostplayed						Personnages les plus joués
+player_stats_mostplayed						Héros les plus joués
 player_stats_nohistory						Ce joueur n'as pas d'historique de ses parties à montrer.
 player_stats_smr_tmr						SMR / TMR
 player_stats_player_name					Nom du joueur:
@@ -1589,6 +1594,8 @@ tooltip_activation2							Activation  [^y{key1}^*, ^y{key2}^*]
 tooltip_ally_abilities						Aptitudes
 tooltip_ally_attributes						Attributs
 tooltip_attack_info							Informations d'attaque
+tooltip_attack_dmg							Dégâts d'Attaque
+tooltip_attack_dmg_msg						Ceci représente les dégâts moyens qu'inflige ce héros (l'armure de la cible et ses capacités ne sont pas prises en compte !).
 tooltip_attribute_info						Informations d'attributs
 tooltip_defense_info						Informations de défense
 tooltip_experience_info						Informations d'expérience
@@ -1597,7 +1604,12 @@ tooltip_agility_info						Bonus de point d'agilité
 tooltip_intelligence_info					Bonus de point d'intelligence
 tooltip_level								Niveau {level}
 tooltip_unleveled							Sans niveau
-tooltip_move_speed							Vitesse de déplacement : 
+tooltip_movespeed							Vitesse de déplacement : 
+tooltip_movespeed_msg						Ceci est la vitesse de déplacement avec laquelle se déplace le héros par rapport à d'autres héros.
+tooltip_total_health						Santé de base du héros
+tooltip_total_health_msg					Cette valeur représente la santé de base du héros et l'étendue des dégâts que celui-ci peut supporter avant d'être tué.
+tooltip_total_mana							Mana de base du héros
+tooltip_total_mana_msg						Cette valeur représente la mana de base du héros. Elle se consume quand le héros utilise ses capacités ou qu'il jette un sort.
 tooltip_mana								Mana : 
 tooltip_mana_regen							Régénération mana : 
 tooltip_value								Valeur : 
@@ -1613,8 +1625,12 @@ tooltip_health_regen						Régénération santé:
 tooltip_total_experience					Expérience totale : 
 tooltip_next_level							Niveau suivant : 
 tooltip_armor								Armure : 
+tooltip_armor_msg							Une haute valeur d'armure réduit le montant des dégats physique que le héros prendra.
+tooltip_attack_range						Distance d'Attaque
+tooltip_attack_range_msg					Cette valeur représente la distance maximale avec laquelle le héros peut toucher sa cible. Cette valeur n'influe généralement pas la distance des capacités ainsi que celle des sorts.
 tooltip_damage_reduction					Réduction dommages : ^y
 tooltip_magic_armor							Armure magique : 
+tooltip_magic_armor_msg						Une haute valeur d'armure magique réduit le montant des dégats de certains sorts et/ou capacités que le héros prendra.
 tooltip_magic_damage_reduction				Réduction dommages magiques : ^y
 tooltip_combat_type							Type de combat : 
 tooltip_primary_attribute					Attribut principal : 
@@ -1622,12 +1638,19 @@ tooltip_strength_per_level					Force par niveau :
 tooltip_agility_per_level					Agilité par niveau : 
 tooltip_intelligence_per_level				Intelligence par niveau : 
 tooltip_strength							Force : 
+tooltip_strenght_msg						Force de base du héros.
 tooltip_agility								Agilité : 
+tooltip_agility_msg							Agilité de base du héros.
 tooltip_intelligence						Intelligence : 
+tooltip_intelligence_msg					Intelligence de base du héros.
 tooltip_damage								Dommages : 
 tooltip_attack_speed						Vitesse d'attaque : 
+tooltip_attack_speed_msg					Cette valeur détermine combien de fois par seconde ce héros attaque.
 tooltip_cast_speed							Vitesse de sort : 
-tooltip_attack_type							Type d'attaque : 
+tooltip_attack_type							Type d'attaque :
+tooltip_attack_msg							Ceci est le type d'attaque que le héros utilise. Les attaquants en mêlée/CàC attaquent de face, tandis que les attaquants à distance combattent de plus loin.
+tooltip_hero_announcement					Annonce-vocale Héros
+tooltip_hero_announcement_msg				Cliquez-ici pour entendre l'annonceur dire le nom du héros.
 tooltip_base_attack_cooldown				Recharge attaque de base : {time} secondes
 tooltip_attack_cooldown						Recharge attaque : ^y{time} secondes
 tooltip_attacks_per_second					^y{value}^* attaques par seconde
@@ -1643,7 +1666,30 @@ tooltip_friends								Amis
 tooltip_clan								Clan
 tooltip_notifications						Notifications Reçus
 tooltip_autoconnect_title					Connexion auto
-tooltip_autoconnect							Quand sélectionné, vous vous connecterez automatiquement à se canal chaque fois que vous vous connectez au jeu.
+tooltip_autoconnect							Quand sélectionné, vous vous connecterez automatiquement à ce canal chaque fois que vous vous connectez au jeu.
+
+tooltip_sort_name							Trier par Nom de Héros
+tooltip_sort_name_msg						Cliquez-ici pour trier la liste par Nom de Héros.
+tooltip_sort_primary						Trier par Carac. Principale
+tooltip_sort_primary_msg					Cliquez-ici pour trier la liste par Caractéristique Principale (Force, Agilité ou Intelligence).
+tooltip_sort_attack							Trier par type d'Attaque
+tooltip_sort_attack_msg						Cliquez-ici pour trier la liste par type d'attaque (melee ou distance).
+tooltip_sort_str							Trier par Force
+tooltip_sort_str_msg						Cliquez-ici pour trier la liste par la caractéristique Force.
+tooltip_sort_agi							Trier par Agilité
+tooltip_sort_agi_msg						Cliquez-ici pour trier la liste par la caractéristique Agilité.
+tooltip_sort_int							Trier par Intelligence
+tooltip_sort_int_msg						Cliquez-ici pour trier la liste par la caractéristique Intelligence.
+tooltip_sort_armor							Trier par Armure
+tooltip_sort_armor_msg						Cliquez-ici pour trier la liste par l'Armure .
+tooltip_sort_magi_armor						Trier par Armure Magique
+tooltip_sort_magi_armor_msg					Cliquez-ici pour trier la liste par Magic Armor.
+tooltip_sort_movement						Trier par Vitesse de Déplacement
+tooltip_sort_movement_msg					Cliquez-ici pour trier la liste par la Vitesse de Déplacement.
+tooltip_sort_dps							Trier par DPS
+tooltip_sort_dps_msg						Cliquez-ici pour trier la liste par la moyenne des Dommages par Seconde (DPS).
+tooltip_sort_dmg							Trier par Dégâts d'Attaque
+tooltip_sort_dmg_msg						Cliquez-ici pour trier la liste par Dégats d'Attaque.
 
 // social_groups.package
 no_ims										Vous n'avez aucune conversation instantanées. Entrez un nom en dessous pour envoyer un message à d'autres joueurs.
@@ -1669,6 +1715,7 @@ ui_items_cc_right_click_user_info			Infos utilisateur
 ui_items_cc_friends_online					Amis en ligne
 ui_items_cc_friends_in_game					Amis en jeu
 ui_items_cc_friends_offline					Amis hors ligne
+ui_items_chat_leavechan						Quitter ce cannal
 
 // player_statistics.package
 player_statistics_name						Statistiques : ^w{name}
@@ -1729,7 +1776,7 @@ replayv_label_date_played					Date du jeu:
 replayv_label_match_length					Durée: 
 replayv_label_map							Carte: 
 replayv_label_game_mode						Mode de jeu: 
-replayv_button_view_match_winner			Regarder le gagnant
+replayv_button_view_match_winner			Voir le gagnant
 
 // cc_tournamentlist.package
 cctournament_upcoming_header				Vos prochains tournois.
@@ -1774,7 +1821,7 @@ options_checkbox_selection_highlight_tip	Si activé, la couleur des unités que 
 game_shop_label_recommended					Recommandé
 game_label_stash_deconstruct_tool_tip		Deconstruction tooltip
 game_disconnect								Déconnecté
-game_end_stats_show_winner					Montrer le gagnant
+game_end_stats_show_winner					Voir le gagnant
 game_end_stats_concede						L'équipe a abandonné
 game_end_stats_awards_soon					Récompense des matchs bientôt !
 game_end_stats_no_matches					You have not participated in any recorded matches yet. You may fetch a match by entering its ID below.
@@ -1817,9 +1864,9 @@ mainlobby_gamelist_official_2_title			Officiel - No Stats
 mainlobby_gamelist_official_2_desc			C'est une partie officielle, ^rles ^rstats ^rne ^rseront ^rpas ^renregistrés
 mainlobby_gamelist_unofficial_title			Non officiel
 mainlobby_gamelist_unofficial_desc			^rC'est ^rune ^rpartie ^rofficielle, ^rles ^rstats ^rne ^rseront ^rpas ^renregistrés
-mainlobby_gamelist_beginner_title			Noobs Only
+mainlobby_gamelist_beginner_title			Noobs Seulmnt
 mainlobby_gamelist_beginner_desc			Seuls les débutants peuvent rejoindre cette partie.
-mainlobby_gamelist_general_title			Noobs permis
+mainlobby_gamelist_general_title			Noobs Permis
 mainlobby_gamelist_general_desc				Tout le monde peut rejoindre cette partie.
 mainlobby_gamelist_veteran_title			Partie pro
 mainlobby_gamelist_veteran_desc				Seuls les vétérans peuvent rejoindre cette partie.
@@ -1865,6 +1912,7 @@ game_lobby_point_value_tip					Nombre de points gagnés ou perdu en fonction de 
 game_lobby_locklabel						You may lock players to their current slot by selecting them in the list below. If a player is locked, they will not be moved when teams are auto balanced.
 game_lobby_locksave							Verrouiller l'emplacement d'un joueur
 game_lobby_balanceteams_btn					Équilibrage automatique
+game_lobby_balance_btn						Équilibrage
 game_lobby_lock_tip_label					Cliquer sur la boule colorée à côté d'un emplacement le bloquera. Les joueurs ne pourront pas prendre l'emplacement tant qu'il est bloqué. Un emplacement bloqué empêche aussi l'équilibrage automatique de déplacer le joueur.
 game_lobby_host_locked_slot_tip				Cet emplacement est bloqué. Cliquez ici pour débloquer l'emplacement. Les joueurs ne peuvent pas prendre un emplacement bloqué et l'équilibrage automatique ne déplace pas les joueurs des emplacements bloqués.
 game_lobby_host_open_slot_tip				Cet emplacement est débloqué. Cliquez ici pour bloquer l'emplacement. Les joueurs ne peuvent pas prendre un emplacement bloqué et l'équilibrage automatique ne déplace pas les joueurs des emplacements bloqués.
@@ -1907,6 +1955,7 @@ player_stats_next_level_needed				XP Needed For Next Level
 player_stats_leave_percent					Pourcentage de désertion
 player_stats_winning_percentage				Victoires %%
 player_stats_kd_ratio						K:D Ratio
+player_stats_concede						Abandons du joueur
 game_setup_banningdraft						Banning Draft
 game_setup_captainsdraft					Captains Draft
 game_setup_captainsmode						Captains Mode
@@ -2113,7 +2162,7 @@ compendium_speed							Vitesse:
 compendium_usage_soon						-Non disponible-
 compendium_health							Vie
 compendium_mana								Mana
-compendium_lvl_inventory					Niveau du héro et inventaire
+compendium_lvl_inventory					Niveau du héros et inventaire
 compendium_rec_items						Objets recommandés
 compendium_inventory						Inventaire
 compendium_items							Objets
@@ -2134,19 +2183,19 @@ compendium_strength							Force
 compendium_agility							Agilité
 compendium_intelligence						Intelligence
 compendium_armor							Armure
-compendium_atk_dmg							Dégâts atk.
+compendium_atk_dmg							Dégâts Atk.
 compendium_speed							Vitesse
 compendium_abilities						Compétences
-tooltip_primary_attribute_strength			This hero's primary attribute is Strength.
-tooltip_primary_attribute_agility			This hero's primary attribute is Agility.
-tooltip_primary_attribute_intelligence		This hero's primary attribute is Intelligence.
+tooltip_primary_attribute_strength			La caractéristique principale de ce héros est la Force.
+tooltip_primary_attribute_agility			La caractéristique principale de ce héros est l'Agilité.
+tooltip_primary_attribute_intelligence		La caractéristique principale de ce héros est l'Intelligence.
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
 web_form_feature_unavailable_inmatch		Cette fonction n'est pas disponible durant une partie.
 web_form_promocode_inuse					Code promo valide - Vous économisez ${price_reduction}.
-web_form_resetstats_pubstats				Stats publiques
+web_form_resetstats_pubstats				Stats Publiques
 web_form_resetstats_pubstats_tip			Statistiques de vos parties publiques.
-web_form_resetstats_rankedstats				Stats parties classées
+web_form_resetstats_rankedstats				Stats Part. Classées
 web_form_resetstats_rankedstats_tip			Statistiques des parties classées du menu "Partie classée" de Heroes of Newerth.
 
 // patchnotes.package
@@ -2161,6 +2210,26 @@ matchmaker_alert_key_loaded					Chargé
 matchmaker_alert_key_failed					Echec
 matchmaker_status_msg						Recherche de joueurs en cours... Une fois que 10 joueurs de même niveau seront trouvés, un serveur sera choisi et tous les joueurs pourront s'y connecté.
 matchmaker_status_leaver_msg				Une fois les 10 joueurs trouvés vous ne pourrez plus quitter la partie sans être considéré comme un déserteur !
+
+main_lobby_amm_region_usw					USA Ouest
+main_lobby_amm_region_usc					USA Centre
+main_lobby_amm_region_uss					USA Sud
+main_lobby_amm_region_use					USA Est
+main_lobby_amm_region_eu					Europe
+main_lobby_amm_region_uk					Royaumes Unis
+main_lobby_amm_region_nl					Pays-Bas
+main_lobby_amm_region_de					Allemagne
+main_lobby_amm_region_japan					Japon
+main_lobby_amm_solo_matches					Matchs: {count}
+main_lobby_amm_solo_rating					Classmnt: {value}
+main_lobby_amm_team_matches					MatchsEquipe: {count}
+main_lobby_amm_team_rating					ClassmntEquipe: {value}
+
+amm_title									Partie Classée Automatique
+amm_jumptier__tip_title						Rejoindre Immédiatement
+amm_jumptier_tip							Clicking this button will join a ranked match autmatically at this RSR difference tier.
+amm_stats_header							Stats Parties Classées
+
 
 // New notification strings    situation = title, dependent = text line 1, info = text line 2
 // 0
